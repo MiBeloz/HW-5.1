@@ -8,6 +8,6 @@ class Triangle : public Figure {
 public:
 	Triangle() : Figure(3) {}
 
-	std::string getName() override { return "Треугольник"; };
+	std::string getName() override { return "Треугольник"; }
 };
 
